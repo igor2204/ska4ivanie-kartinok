@@ -59,7 +59,7 @@ class Program
 
     static void DownloadImage(string imageUrl)
     {
-        string savePath = "C:\\Users\\igorc\\OneDrive\\Рабочий стол\\kartinka.jpg"; // Замените на фактический путь и имя файла для сохранения
+        string savePath = "C:\\Users\\igorc\\OneDrive\\Рабочий стол\\kartinka.jpg"; 
 
         using (WebClient client = new WebClient())
         {
